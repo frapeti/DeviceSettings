@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Radio mode" >
+
+        <!-- Hspa modes -->
+        <com.frapeti.test.Hspa
+            android:defaultValue="0"
+            android:entries="@array/hspa_entries"
+            android:entryValues="@array/hspa_entries_values"
+            android:key="hspa"
+            android:summary="@string/hspa_summary_head"
+            android:title="@string/hspa_title_head" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
