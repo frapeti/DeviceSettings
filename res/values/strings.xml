@@ -50,7 +50,7 @@
     <string name="category_usb_title">Usb</string>
        
     <string name="otg_subcat_title">USB OTG Settings</string>
-    <string name="otg_power_title_head">USB-OTG Power</string>
+    <string name="otg_power_title_head">USB-VBUS Power</string>
     <string name="otg_power_summary_head">Enables output voltage to the USB port</string>
     
     <string name="cc_subcat_title">Charger control</string>
