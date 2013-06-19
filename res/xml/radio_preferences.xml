@@ -4,7 +4,7 @@
     <PreferenceCategory android:title="Radio mode" >
 
         <!-- Hspa modes -->
-        <com.frapeti.test.Hspa
+        <com.cyanogenmod.settings.device.Hspa
             android:defaultValue="0"
             android:entries="@array/hspa_entries"
             android:entryValues="@array/hspa_entries_values"

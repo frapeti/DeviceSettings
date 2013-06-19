@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory
                 android:title="@string/vibrator_subcat_title">
-    <com.frapeti.test.VibratorIntensity
+    <com.cyanogenmod.settings.device.VibratorIntensity
                 android:key="vibrator_intensity"
                 android:title="@string/vibrator_intensity_title_head"
                 android:summary="@string/vibrator_intensity_summary_head"

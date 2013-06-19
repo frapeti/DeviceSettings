@@ -6,7 +6,7 @@
                 android:title="@string/screen_colors_title">
 
     <!-- Panel gamma -->
-    <com.frapeti.test.PanelGamma
+    <com.cyanogenmod.settings.device.PanelGamma
         android:defaultValue="0"
         android:entries="@array/panel_gamma_entries"
         android:entryValues="@array/panel_gamma_entries_values"
@@ -17,7 +17,7 @@
     </PreferenceCategory>
     <PreferenceCategory
                 android:title="@string/touchscreen_subcat_title">
-    <com.frapeti.test.TouchscreenSensitivity
+    <com.cyanogenmod.settings.device.TouchscreenSensitivity
                 android:key="touchscreen_sensitivity"
                 android:title="@string/touchscreen_sensitivity_title_head"
                 android:summary="@string/touchscreen_sensitivity_summary_head"
@@ -37,7 +37,7 @@
                 />
  
    
-     <com.frapeti.test.TouchkeyTimeout
+     <com.cyanogenmod.settings.device.TouchkeyTimeout
                 android:key="touchkey_timeout"
                 android:title="@string/touchkey_timeout_title_head"
                 android:summary="@string/touchkey_timeout_summary_head"
@@ -58,7 +58,7 @@
                 android:summary="@string/crt_off_summary_head"
                 android:defaultValue="true"
                 />
-    <com.frapeti.test.FbDelay
+    <com.cyanogenmod.settings.device.FbDelay
                 android:key="fb_earlysuspend_delay_ms"
                 android:title="@string/crt_off_delay_title_head"
                 android:summary="@string/crt_off_delay_summary_head"

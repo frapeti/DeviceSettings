@@ -16,7 +16,7 @@
         <PreferenceCategory android:title="Charger control" >
 
         <!-- Wall charger control -->
-        <com.frapeti.test.ChargerCurrency
+        <com.cyanogenmod.settings.device.ChargerCurrency
             android:defaultValue="1"
             android:entries="@array/cc_currency_charger_entries"
             android:entryValues="@array/cc_currency_charger_entries_values"
@@ -26,7 +26,7 @@
         
     
                 <!-- USB cable charge control -->
-        <com.frapeti.test.UsbCurrency
+        <com.cyanogenmod.settings.device.UsbCurrency
             android:defaultValue="1"
             android:entries="@array/cc_currency_usb_entries"
             android:entryValues="@array/cc_currency_usb_entries_values"

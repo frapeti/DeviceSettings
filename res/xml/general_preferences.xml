@@ -4,7 +4,7 @@
     <PreferenceCategory android:title="Radio mode" >
 
         <!-- Hspa modes -->
-        <com.frapeti.test.Hspa
+        <com.cyanogenmod.settings.device.Hspa
             android:defaultValue="0"
             android:entries="@array/hspa_entries"
             android:entryValues="@array/hspa_entries_values"
@@ -29,7 +29,7 @@
 
    
     <PreferenceCategory android:title="@string/vibrator_subcat_title" >
-        <com.frapeti.test.VibratorIntensity
+        <com.cyanogenmod.settings.device.VibratorIntensity
             android:defaultValue="50"
             android:entries="@array/vibrator_intensity_entries"
             android:entryValues="@array/vibrator_intensity_entries_values"
@@ -40,7 +40,7 @@
 
 <PreferenceCategory android:title="@string/advanced_subcat_title" >
 
-    <com.frapeti.test.DeepestSleepState
+    <com.cyanogenmod.settings.device.DeepestSleepState
         android:defaultValue="2"
         android:entries="@array/deepest_sleep_states_entries"
         android:entryValues="@array/deepest_sleep_states_entries_values"
